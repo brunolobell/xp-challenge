@@ -1,0 +1,24 @@
+{
+  "name": "query-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "swagger-autogen": "node ./src/config/swagger.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "sequelize": "^6.14.1",
+    "swagger-autogen": "^2.18.8",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
